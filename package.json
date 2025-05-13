@@ -1,6 +1,6 @@
 {
   "name": "project01",
-  "homepage": "https://ASH-ashim.github.io/Hotel-App-with-React-and-Tailwind/",
+  "homepage": "https://ASH-ashim.github.io/Hotel-App/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,9 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
-    
   },
   "dependencies": {
     "@clerk/clerk-react": "^5.31.1",
